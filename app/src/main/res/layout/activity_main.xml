@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:backgroundTint="#012853">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/_btn_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="394dp"
+        android:text="INICIO"
+        android:fontFamily="@font/brother_bold"
+        android:backgroundTint="#e4b82b"
+        android:textSize="15dp"
+        android:width="300dp"
+        android:height="50dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_link_somostierra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="291dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:backgroundTint="#e4b82b"
+        android:fontFamily="@font/brother_bold"
+        android:text="SOMOS TIERRA"
+        android:textSize="15dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_btn_link"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="@font/brother_bold"
+        android:textAlignment="center"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:textColor="#012853"
+        android:text="Nuevas prácticas para nuevos vínculos. Atrévete a bucear en la profundidad de tu historia relacional, entiende tu futuro y SÉ más TÚ.  "
+        app:layout_constraintBottom_toTopOf="@+id/_btn_link"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_certificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="174dp"
+        android:backgroundTint="#e4b82b"
+        android:fontFamily="@font/brother_bold"
+        android:text="Liderazgo Regenerativo"
+        android:textSize="15dp"
+        app:cornerRadius="10dp"
+        android:width="300dp"
+        android:height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_link_somostierra" />
+
+    <Button
+        android:id="@+id/btn_link_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="84dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_certificacion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
